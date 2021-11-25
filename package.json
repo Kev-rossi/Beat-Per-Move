@@ -3,17 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.4.2",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "mobx": "^6.3.7",
+    "mobx-react": "^7.2.1",
     "react": "^17.0.2",
+    "react-audio-player": "^0.17.0",
     "react-dom": "^17.0.2",
+    "react-playlist-player": "^1.2.6",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "youtube-audio-stream": "^0.3.32"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.7",
+    "@craco/craco": "^5.6.4",
+    "node-sass": "^6.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "craco start",
+    "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
